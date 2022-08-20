@@ -6,8 +6,8 @@ In this project I created an application that generates a random text when press
 
 ## How to install 
 
-Clone the respository:
+Clone the respository.
  `git clone git@github.com:fvaldez29/mixed-messages.git`
 
-Open the file index.html in your favorite browser: 
+Open the file index.html in your favorite browser.
 `index.html`
