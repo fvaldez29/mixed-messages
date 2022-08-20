@@ -7,6 +7,7 @@
 main{
     width: 100%;
     height: 100vh;
+    background-color: rgb(89, 160, 227);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -14,6 +15,8 @@ main{
     flex-flow: column wrap;
 }
 main h1{
+    letter-spacing: 2px;
+    word-spacing: 4px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,6 +30,7 @@ main button{
     border-radius: 5px;
     font-weight: bold;
     box-shadow: 0px 0px 4px;
+    letter-spacing: 2px;
     cursor: pointer;
 }
 
@@ -43,9 +47,18 @@ main button{
     background-color: rgb(213, 6, 6);
 }
 .container{
+    display: flex;
     margin: 30px auto;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.641);
     height: 350px;
     width: 650px;
     border-radius: 4px;
+}
+p{
+    text-align: left;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 25px;
+    
 }
